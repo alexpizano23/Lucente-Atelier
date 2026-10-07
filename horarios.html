@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Horario y atención | Lucente Atelier</title>
+    <meta
+        name="description"
+        content="Atención todos los días de 8:00 a. m. a 8:00 p. m. Consulta cómo elegir tu joyería y acordar una entrega."
+    >
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <a class="saltar-contenido" href="#contenido">
+        Ir al contenido principal
+    </a>
+
+    <header class="header">
+        <div class="contenedor header__contenido">
+            <a class="marca" href="index.html" aria-label="Lucente Atelier, inicio">
+                <img
+                    class="marca__logo"
+                    src="img/logo-lucente.png"
+                    alt="Lucente"
+                >
+                <span>Lucente <span class="texto-dorado">Atelier</span></span>
+            </a>
+
+            <nav class="navegacion" aria-label="Navegación principal">
+                <ul class="navegacion__lista">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="servicios.html">Colección y servicios</a>
+                    </li>
+                    <li>
+                        <a href="horarios.html" aria-current="page">Atención</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <!-- SECCIÓN 1: HORARIO -->
+        <section
+            class="seccion"
+            id="horario"
+            aria-labelledby="titulo-horario"
+        >
+            <div class="contenedor texto-centrado">
+                <p class="etiqueta">Estamos para atenderte</p>
+                <h1 id="titulo-horario">Horario de atención</h1>
+
+                <svg
+                    class="icono"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    aria-hidden="true"
+                    focusable="false"
+                >
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M12 7v5l3 2"></path>
+                </svg>
+
+                <h2>Lunes a domingo</h2>
+                <p>
+                    <strong class="texto-dorado">
+                        <time datetime="08:00">8:00 a. m.</time>
+                        a
+                        <time datetime="20:00">8:00 p. m.</time>
+                    </strong>
+                </p>
+
+                <p>
+                    Puedes contactarnos durante este horario para consultar
+                    piezas, disponibilidad, mayoreo y opciones de entrega.
+                    El horario corresponde a la hora local de Aguascalientes.
+                </p>
+
+                <div class="acciones acciones--centradas">
+                    <a
+                        class="boton"
+                        href="https://www.instagram.com/lucente.atelier/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Abrir Instagram
+                        <span class="visualmente-oculto">
+                            (abre otra pestaña)
+                        </span>
+                    </a>
+                    <a class="boton boton--secundario" href="contacto.html">
+                        Ver canales de contacto
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: CÓMO CONSULTAR -->
+        <section
+            class="seccion seccion--contraste"
+            id="como-consultar"
+            aria-labelledby="titulo-consulta"
+        >
+            <div class="contenedor">
+                <p class="etiqueta">Prepara tu consulta</p>
+                <h2 id="titulo-consulta">Tres pasos para elegir tu pieza</h2>
+                <p class="margen-inferior">
+                    Compartir estos detalles nos ayuda a entender
+                    qué estás buscando.
+                </p>
+
+                <div class="grid-tres">
+                    <article class="tarjeta">
+                        <div class="tarjeta__contenido">
+                            <p class="etiqueta">Paso 1</p>
+                            <h3>Elige una categoría</h3>
+                            <p>
+                                Revisa las cadenas, pulseras y dijes.
+                                Guarda el nombre o una fotografía de
+                                la pieza que te interesa.
+                            </p>
+                            <a class="enlace" href="servicios.html#coleccion">
+                                Explorar la colección
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <div class="tarjeta__contenido">
+                            <p class="etiqueta">Paso 2</p>
+                            <h3>Indica lo que necesitas</h3>
+                            <p>
+                                Menciona la cantidad y consulta las medidas.
+                                Si buscas mayoreo, indícalo desde el
+                                inicio de tu mensaje.
+                            </p>
+                            <a class="enlace" href="servicios.html#mayoreo">
+                                Conocer el mayoreo
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <div class="tarjeta__contenido">
+                            <p class="etiqueta">Paso 3</p>
+                            <h3>Consulta los detalles</h3>
+                            <p>
+                                Contacta a Lucente Atelier para confirmar
+                                disponibilidad, precio, forma de pago
+                                y opciones de entrega.
+                            </p>
+                            <a class="enlace" href="contacto.html">
+                                Ver cómo contactar
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: PREPARAR LA ENTREGA -->
+        <section
+            class="seccion"
+            id="preparar-entrega"
+            aria-labelledby="titulo-entrega"
+        >
+            <div class="contenedor">
+                <p class="etiqueta">Acuerda los detalles</p>
+                <h2 id="titulo-entrega">Prepara tu entrega o envío</h2>
+                <p class="margen-inferior">
+                    Entregamos a domicilio en Aguascalientes
+                    y realizamos envíos a todo México.
+                    Antes de confirmar tu pedido, revisa lo siguiente.
+                </p>
+
+                <div class="grid-tres">
+                    <article class="tarjeta">
+                        <div class="tarjeta__contenido">
+                            <h3>Tu ubicación</h3>
+                            <p>
+                                Indica tu ciudad, estado y código postal
+                                al consultar la entrega.
+                                Comparte tu domicilio completo únicamente
+                                por un canal privado al coordinar el pedido.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <div class="tarjeta__contenido">
+                            <h3>Fecha y recepción</h3>
+                            <p>
+                                Consulta el tiempo estimado y acuerda
+                                quién recibirá el pedido.
+                                El horario de atención no garantiza
+                                una entrega a cualquier hora.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <div class="tarjeta__contenido">
+                            <h3>Costo y confirmación</h3>
+                            <p>
+                                Confirma el costo de entrega o envío,
+                                el total del pedido y la forma de pago
+                                directamente con Lucente Atelier.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="acciones">
+                    <a class="boton" href="contacto.html">
+                        Consultar mi entrega
+                    </a>
+                    <a
+                        class="boton boton--secundario"
+                        href="servicios.html#entregas"
+                    >
+                        Ver opciones de entrega
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor footer__contenido">
+            <div>
+                <p class="footer__marca">Lucente Atelier</p>
+                <p>Joyería para caballero en oro laminado de 14k.</p>
+            </div>
+
+            <nav class="redes" aria-label="Redes sociales">
+                <a
+                    href="https://www.instagram.com/lucente.atelier/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                    <span class="visualmente-oculto">(abre otra pestaña)</span>
+                </a>
+                <a
+                    href="https://www.facebook.com/share/19q76FaHBv/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Facebook
+                    <span class="visualmente-oculto">(abre otra pestaña)</span>
+                </a>
+            </nav>
+
+            <p class="footer__nota">
+                Proyecto escolar de Desarrollo Web · Lucente Atelier
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
